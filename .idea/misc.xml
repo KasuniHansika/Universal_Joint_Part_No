@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/drawable/border.xml" value="0.23743589743589744" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/activity_find_part_no.xml" value="0.15942028985507245" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/activity_home_page.xml" value="0.18342391304347827" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/activity_universal_joint_list.xml" value="0.22" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/bearing_type_one.xml" value="0.1644021739130435" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/content_scrolling.xml" value="0.22" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/find_part_no.xml" value="0.15942028985507245" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/fragment_connect.xml" value="0.13179347826086957" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/list_view_item_row.xml" value="0.13179347826086957" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/search.xml" value="1.1" />
+        <entry key="..\:/03_Studies/06_Studies/OUSL/Software Engineering/2nd year/UniversalJointPartNo/app/src/main/res/layout/toolbar.xml" value="0.13179347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

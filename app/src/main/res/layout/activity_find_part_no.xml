@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".FindPartNo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Find Part Number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_dimension"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:text="Dimensions (mm)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_cap_dia"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Cap Dia(c) :"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_cap_dia"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_yoke_lockup"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Yoke Lockup :"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_yoke_lockup"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/imageButton_search"
+                android:layout_width="100dp"
+                android:layout_height="160dp"
+                android:background="#000"
+                android:padding="3dp"
+                app:srcCompat="@drawable/sh7"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <TextView
+                android:id="@+id/textView_search"
+                android:layout_width="124dp"
+                android:layout_height="41dp"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/imageButton_exist"
+                android:layout_width="100dp"
+                android:layout_height="160dp"
+                android:background="#000"
+                android:padding="3dp"
+                app:srcCompat="@drawable/clbtn1"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <TextView
+                android:id="@+id/textView_exist"
+                android:layout_width="124dp"
+                android:layout_height="41dp"
+                android:text="Close"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView_part_no"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Part Number :"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_part_no"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>
